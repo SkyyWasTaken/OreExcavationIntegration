@@ -55,6 +55,9 @@ public class MainConfig {
     @Config.Comment("The max level of enchantment needed to full power of the tool.")
     public static int maxEnchantmentLevel = 5;
 
+    @Config.Comment("true classifies the enchantment as a treasure enchantment")
+    public static boolean isTreasureEnchantment = true;
+
     @Mod.EventBusSubscriber
     static class ConfigurationHolder {
         @SubscribeEvent

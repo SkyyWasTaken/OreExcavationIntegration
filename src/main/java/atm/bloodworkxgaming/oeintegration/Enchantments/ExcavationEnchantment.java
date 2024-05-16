@@ -61,6 +61,6 @@ public class ExcavationEnchantment extends Enchantment {
 
     @Override
     public boolean isTreasureEnchantment() {
-        return false;
+        return MainConfig.isTreasureEnchantment;
     }
 }
